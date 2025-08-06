@@ -1,12 +1,20 @@
 # Picture
 
-存放所有图片，包括博客内图片和博客网站使用图片
+存放所有图片，包括博客内图片和博客网站使用图片。
 
 ## Typora-PicGo 目录
 
 PicGo 内设置上传的路径，只存储 Typora 上传博客文章内使用的图片。
 
 通过 Typora 支持的 PicGo 上传服务来上传。不手动通过 PicGo 上传图片到该目录下。
+
+在 Github -->头像 --> Settings --> Developer Settings --> Fine-grained personal access tokens 创建个人令牌，仅选择指定仓库即可，添加读写权限。
+
+PicGo 设置中设置按时间戳上传（或者其他方式也行，例如上传前重命名、自定义链接格式）。
+
+PicGo 的 GitHub图床 配置如下：
+
+![屏幕截图 2025-08-06 194944](https://cdn.jsdelivr.net/gh/Yuanmxc/PicturesAll/Typora-PicGo/202508062021508.png)
 
 ## BlogWebsite目录
 
